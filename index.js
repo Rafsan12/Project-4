@@ -12,7 +12,7 @@ depositBtn.addEventListener("click", () =>{
 
     const newBalance =  depositAmount + currentBalance;
     // console.log(newBalance);
-    totalBalance.textContent = newBalance.toFixed(2);
+    totalBalance.textContent = newBalance.toFixed(3);
     depositInput.value = "";
 
     const transaction = {
